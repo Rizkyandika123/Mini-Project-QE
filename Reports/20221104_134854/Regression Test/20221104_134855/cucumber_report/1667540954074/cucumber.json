@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a new order",
+        "description": "",
+        "id": "order;create-a-new-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1221336900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for Create a new order",
+            "match": {
+              "location": "order.sendRequestRegister()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5229400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify Create a new order HTTP response code 200",
+            "match": {
+              "location": "order.verifyRegiterResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Get all orders",
+        "description": "",
+        "id": "order;get-all-orders",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1213683400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for Get all orders",
+            "match": {
+              "location": "order.sendRequestLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2096200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify Get all orders HTTP response code 200",
+            "match": {
+              "location": "order.verifyLoginResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get order by ID",
+        "description": "",
+        "id": "order;get-order-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214844000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for Get order by ID",
+            "match": {
+              "location": "order.sendRequestinfo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2072000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify Get order by ID HTTP response code 200",
+            "match": {
+              "location": "order.verifyInfoResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create a new order without access token",
+        "description": "",
+        "id": "order;create-a-new-order-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1222064300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for Create a new order without access token",
+            "match": {
+              "location": "order.sendRequestCreateNewOrderWithoudAccessToken()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1758000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify Create a new order without access token HTTP response code 401",
+            "match": {
+              "location": "order.verifyCreateNewOrderWithoudAccessTokenResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Get all orders with invalid endpoint",
+        "description": "",
+        "id": "order;get-all-orders-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1438139000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for Get all orders with invalid endpoint",
+            "match": {
+              "location": "order.sendRequestGetAllOrderWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1740700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify Get all orders with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "order.verifyGetAllOrderWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get order by id without access token",
+        "description": "",
+        "id": "order;get-order-by-id-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219168500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for Get order by id without access token",
+            "match": {
+              "location": "order.sendRequestGetOrderByIdWithoutAccessToken()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2333600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify Get order by id without access token HTTP response code 401",
+            "match": {
+              "location": "order.verifyGetOrderByIdWithoutAccessTokenResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order",
+    "description": "",
+    "id": "order",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/order.feature",
+    "tags": []
+  }
+]

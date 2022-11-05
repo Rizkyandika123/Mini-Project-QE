@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="21.042139">
+<testcase classname="Product" name="Create a new product" time="1.341657">
+<system-out><![CDATA[Given I am send request for Create a new product............................passed
+Then I am verify Create a new product HTTP response code 200................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get all product" time="2.085419">
+<system-out><![CDATA[Given I am send request for Get all product.................................passed
+Then I am verify Get all product HTTP response code 200.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product by ID" time="1.231216">
+<system-out><![CDATA[Given I am send request for Get product by ID...............................passed
+Then I am verify Get product by ID HTTP response code 200...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Delete a product" time="1.24944">
+<system-out><![CDATA[Given I am send request for Delete a product................................passed
+Then I am verify Delete a product HTTP response code 200....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Assign a product rating" time="1.232464">
+<system-out><![CDATA[Given I am send request for Assign a product rating.........................passed
+Then I am verify Assign a product rating HTTP response code 200.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product ratings" time="1.275671">
+<system-out><![CDATA[Given I am send request for Get product ratings.............................passed
+Then I am verify Get product ratings HTTP response code 200.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Create a comment of product" time="1.277534">
+<system-out><![CDATA[Given I am send request for Create a comment of product.....................passed
+Then I am verify Create a comment of product HTTP response code 200.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product comment" time="1.199928">
+<system-out><![CDATA[Given I am send request for Get product comment.............................passed
+Then I am verify Get product comment HTTP response code 200.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Create a new product with invalid endpoint" time="1.19796">
+<system-out><![CDATA[Given I am send request for Create a new product with invalid endpoint......passed
+Then I am verify Create a new product with invalid endpoint HTTP response code 404.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get all product with invalid endpoint" time="1.240707">
+<system-out><![CDATA[Given I am send request for Get all product with invalid endpoint...........passed
+Then I am verify Get all product with invalid endpoint HTTP response code 404.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product by ID with invalid ID" time="1.262622">
+<system-out><![CDATA[Given I am send request for Get product by ID with invalid ID...............passed
+Then I am verify Get product by ID with invalid ID HTTP response code 404...passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Delete a product with invalid endpoint" time="1.217967">
+<system-out><![CDATA[Given I am send request for Delete a product with invalid endpoint..........passed
+Then I am verify Delete a product with invalid endpoint HTTP response code 404.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Assign a product rating without access token" time="1.19337">
+<system-out><![CDATA[Given I am send request for Assign a product rating without access token....passed
+Then I am verify Assign a product rating HTTP response code 401.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product ratings with invalid endpoint" time="1.248417">
+<system-out><![CDATA[Given I am send request for Get product ratings with invalid endpoint.......passed
+Then I am verify Get product ratings HTTP response code 404.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Create a comment of product without access token" time="1.541226">
+<system-out><![CDATA[Given I am send request for Create a comment of product without access token.passed
+Then I am verify Create a comment of product without access token HTTP response code 401.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product" name="Get product comment with invalid endpoint" time="1.246541">
+<system-out><![CDATA[Given I am send request for Get product comment with invalid endpoint.......passed
+Then I am verify Get product comment with invalid endpoint HTTP response code 404.passed
+]]></system-out>
+</testcase>
+</testsuite>

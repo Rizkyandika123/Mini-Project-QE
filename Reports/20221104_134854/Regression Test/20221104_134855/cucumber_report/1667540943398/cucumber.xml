@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="9.270884">
+<testcase classname="Authentication" name="Register" time="2.97546">
+<system-out><![CDATA[Given I am send request for register........................................passed
+Then I am verify register HTTP response code 200............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Authentication" name="Login" time="1.244905">
+<system-out><![CDATA[Given I am send request for login...........................................passed
+Then I am verify login HTTP response code 200...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Authentication" name="Get user information" time="1.256971">
+<system-out><![CDATA[Given I am send request for get user information............................passed
+Then I am verify user information HTTP response code 200....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Authentication" name="Register with same email" time="1.253935">
+<system-out><![CDATA[Given I am send request for register with same email........................passed
+Then I am verify register with same email HTTP response code 400............passed
+]]></system-out>
+</testcase>
+<testcase classname="Authentication" name="Login with invalid password" time="1.267071">
+<system-out><![CDATA[Given I am send request for login with invalid password.....................passed
+Then I am verify login HTTP response code 400...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Authentication" name="Get user information without login" time="1.272542">
+<system-out><![CDATA[Given I am send request for get user information without login..............passed
+Then I am verify user information without login HTTP response code 401......passed
+]]></system-out>
+</testcase>
+</testsuite>

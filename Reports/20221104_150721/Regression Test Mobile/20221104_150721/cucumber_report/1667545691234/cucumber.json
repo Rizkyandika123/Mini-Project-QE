@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "As user, I want to login to the apps",
+        "description": "",
+        "id": "login;as-user--i-want-to-login-to-the-apps;s;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17071526400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the login page",
+            "match": {
+              "location": "login.onTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3667577500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am input testsatu@email.com in form email in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testsatu@email.com",
+                  "offset": 11
+                }
+              ],
+              "location": "login.inputEmail(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1546411700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am input 1234567890 in form password in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 11
+                }
+              ],
+              "location": "login.inputPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 680874800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am click login button",
+            "match": {
+              "location": "login.clickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714199900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am navigate to home page",
+            "match": {
+              "location": "login.navigateToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user\n  I want to login to the apps",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/Mobile/Auth/login.feature",
+    "tags": []
+  }
+]

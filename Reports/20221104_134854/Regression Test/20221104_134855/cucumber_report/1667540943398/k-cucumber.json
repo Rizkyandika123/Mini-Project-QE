@@ -1,0 +1,235 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "ba4ba58e-eccc-4e20-8eb5-500f19d016e5",
+        "line": 3,
+        "name": "Register",
+        "description": "",
+        "id": "authentication;register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2625757100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for register",
+            "match": {
+              "location": "authentication.sendRequestRegister()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "b8f059ce-be5b-4ab9-ba5a-9272a480c504"
+          },
+          {
+            "result": {
+              "duration": 14075600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify register HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyRegiterResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "60828f05-9d40-4043-af7e-0aa8a4b18c97"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "939d2100-89d4-43f2-a416-1d07a08996f2",
+        "line": 7,
+        "name": "Login",
+        "description": "",
+        "id": "authentication;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236966400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for login",
+            "match": {
+              "location": "authentication.sendRequestLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "6e7089b4-f7ee-4a5c-bec9-2928c14c86ac"
+          },
+          {
+            "result": {
+              "duration": 2564200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify login HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyLoginResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1743f627-f8d3-4ad8-94d0-08d59c8e246c"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "153896dd-6055-4b29-904b-359fcdd1dbf5",
+        "line": 11,
+        "name": "Get user information",
+        "description": "",
+        "id": "authentication;get-user-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1251371700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for get user information",
+            "match": {
+              "location": "authentication.sendRequestGetUserInformation()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9b7b1c7b-2640-4b56-aaf2-fef7b799a3ff"
+          },
+          {
+            "result": {
+              "duration": 2359600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify user information HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyGetUserInformationResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d4c344d5-7a61-43e5-a87b-16d66bd6deb8"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7afd221b-66e3-4bb1-8cce-6a6745ecb0ac",
+        "line": 15,
+        "name": "Register with same email",
+        "description": "",
+        "id": "authentication;register-with-same-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246422200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for register with same email",
+            "match": {
+              "location": "authentication.sendRequestRegisterWithSameEmail()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1e354eb7-1897-4102-a4bd-bc422f21e509"
+          },
+          {
+            "result": {
+              "duration": 3175900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify register with same email HTTP response code 400",
+            "match": {
+              "location": "authentication.verifyRegisterWithSameEmailResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "002ed1d5-8d51-4a3c-be2d-455ca39331de"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5b400a33-88f8-4b44-8cbc-897c054c51e5",
+        "line": 19,
+        "name": "Login with invalid password",
+        "description": "",
+        "id": "authentication;login-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1260414300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for login with invalid password",
+            "match": {
+              "location": "authentication.sendRequestLoginWithInvalidPassword()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "839ad885-902f-4d6f-b4ef-419bcbc1f791"
+          },
+          {
+            "result": {
+              "duration": 2388400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify login HTTP response code 400",
+            "match": {
+              "location": "authentication.verifyLoginWithInvalidPasswordResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d8145fb0-fef7-4854-a42f-0f9153aab1d8"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "23ec3cb3-1ea3-4be5-8fbd-d726de543d98",
+        "line": 23,
+        "name": "Get user information without login",
+        "description": "",
+        "id": "authentication;get-user-information-without-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267086300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for get user information without login",
+            "match": {
+              "location": "authentication.sendRequestGetUserInformationWithoutLogin()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "74b086c9-def3-4032-99bf-1a89a1640417"
+          },
+          {
+            "result": {
+              "duration": 2013200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify user information without login HTTP response code 401",
+            "match": {
+              "location": "authentication.verifyGetUserInformationWithoutLoginResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "28fee149-873e-44ad-8298-d4760d429432"
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/auth.feature",
+    "tags": []
+  }
+]

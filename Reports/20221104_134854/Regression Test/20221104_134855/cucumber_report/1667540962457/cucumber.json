@@ -1,0 +1,562 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a new product",
+        "description": "",
+        "id": "product;create-a-new-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219772900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for Create a new product",
+            "match": {
+              "location": "products.sendRequestCreateNewProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112260400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify Create a new product HTTP response code 200",
+            "match": {
+              "location": "products.verifyCreateNewProductResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Get all product",
+        "description": "",
+        "id": "product;get-all-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2079356700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for Get all product",
+            "match": {
+              "location": "products.sendRequestGetAllProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2540800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify Get all product HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetAllProductResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get product by ID",
+        "description": "",
+        "id": "product;get-product-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1226907600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for Get product by ID",
+            "match": {
+              "location": "products.sendRequestGetProductById()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1853600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify Get product by ID HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductByIdResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Delete a product",
+        "description": "",
+        "id": "product;delete-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1245151200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for Delete a product",
+            "match": {
+              "location": "products.sendRequestDeleteProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2201700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify Delete a product HTTP response code 200",
+            "match": {
+              "location": "products.verifyDeleteProductResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Assign a product rating",
+        "description": "",
+        "id": "product;assign-a-product-rating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1228436000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for Assign a product rating",
+            "match": {
+              "location": "products.sendRequestAssignProductRating()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1756700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify Assign a product rating HTTP response code 200",
+            "match": {
+              "location": "products.verifyAssignProductRatingResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get product ratings",
+        "description": "",
+        "id": "product;get-product-ratings",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271884200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for Get product ratings",
+            "match": {
+              "location": "products.sendRequestGetProductRatings()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1686100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify Get product ratings HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductRatingsResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Create a comment of product",
+        "description": "",
+        "id": "product;create-a-comment-of-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1273364800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am send request for Create a comment of product",
+            "match": {
+              "location": "products.sendRequestCreateCommentOfProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1932000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am verify Create a comment of product HTTP response code 200",
+            "match": {
+              "location": "products.verifyCreateCommentOfProductResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Get product comment",
+        "description": "",
+        "id": "product;get-product-comment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1195656100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am send request for Get product comment",
+            "match": {
+              "location": "products.sendRequestGetProductComment()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2017600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am verify Get product comment HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductCommentResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Create a new product with invalid endpoint",
+        "description": "",
+        "id": "product;create-a-new-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1193540800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am send request for Create a new product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestCreateNewProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1772900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am verify Create a new product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyCreateNewProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Get all product with invalid endpoint",
+        "description": "",
+        "id": "product;get-all-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236811900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am send request for Get all product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetAllProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1698500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am verify Get all product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetAllProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Get product by ID with invalid ID",
+        "description": "",
+        "id": "product;get-product-by-id-with-invalid-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258964600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am send request for Get product by ID with invalid ID",
+            "match": {
+              "location": "products.sendRequestGetProductByIdWithInvalidId()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1547400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am verify Get product by ID with invalid ID HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductByIdWithInvalidIdResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Delete a product with invalid endpoint",
+        "description": "",
+        "id": "product;delete-a-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214322300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I am send request for Delete a product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestDeleteProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1574900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I am verify Delete a product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyDeleteProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Assign a product rating without access token",
+        "description": "",
+        "id": "product;assign-a-product-rating-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1189234000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I am send request for Assign a product rating without access token",
+            "match": {
+              "location": "products.sendRequestAssignProductRatingWithoutAccessToken()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1848800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am verify Assign a product rating HTTP response code 401",
+            "match": {
+              "location": "products.verifyAssignProductRatingWithoutAccessTokenResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Get product ratings with invalid endpoint",
+        "description": "",
+        "id": "product;get-product-ratings-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244874100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I am send request for Get product ratings with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetProductRatingsWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1565700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I am verify Get product ratings HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductRatingsWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Create a comment of product without access token",
+        "description": "",
+        "id": "product;create-a-comment-of-product-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1537663000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I am send request for Create a comment of product without access token",
+            "match": {
+              "location": "products.sendRequestCreateCommentOfProductWithoutAccessToken()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1498800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I am verify Create a comment of product without access token HTTP response code 401",
+            "match": {
+              "location": "products.verifyCreateCommentOfProductWithoutAccessTokenResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "Get product comment with invalid endpoint",
+        "description": "",
+        "id": "product;get-product-comment-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1242427100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I am send request for Get product comment with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetProductCommentWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1616200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I am verify Get product comment with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductWithInvalidEndpointCommentResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product",
+    "description": "",
+    "id": "product",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/product.feature",
+    "tags": []
+  }
+]

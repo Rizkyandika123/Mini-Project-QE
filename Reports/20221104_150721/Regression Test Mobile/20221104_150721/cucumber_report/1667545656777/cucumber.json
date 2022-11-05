@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "As User, I want to register and make new account",
+        "description": "",
+        "id": "register;as-user--i-want-to-register-and-make-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24368329900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the register page",
+            "match": {
+              "location": "register.onTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2434674500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am input Test lima ok in form fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test lima ok",
+                  "offset": 11
+                }
+              ],
+              "location": "register.inputFullnameInFormFullname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1862499200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am input testlimaok@email.com in form email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testlimaok@email.com",
+                  "offset": 11
+                }
+              ],
+              "location": "register.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1440507700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am input tes1234567890 in form password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tes1234567890",
+                  "offset": 11
+                }
+              ],
+              "location": "register.I_check_for_the_value_in_stepwe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777174700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am click register button",
+            "match": {
+              "location": "register.I_check_for_the_value_in_stepqwee()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1457182100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the home page",
+            "match": {
+              "location": "register.I_verify_the_status_in_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user\n  I want to register and make new account",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/Mobile/Auth/register.feature",
+    "tags": []
+  }
+]

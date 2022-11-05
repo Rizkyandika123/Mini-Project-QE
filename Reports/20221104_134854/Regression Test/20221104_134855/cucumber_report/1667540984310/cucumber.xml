@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="7.993865">
+<testcase classname="Product Categories" name="Create a product category" time="1.550069">
+<system-out><![CDATA[Given I am send request for create a category...............................passed
+Then I am verify create a category HTTP response code 200...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Categories" name="Get all product category" time="1.444789">
+<system-out><![CDATA[Given I am send request for get all category................................passed
+Then I am verify get all category HTTP response code 200....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Categories" name="Get product category by ID" time="1.244578">
+<system-out><![CDATA[Given I am send request for get category by id..............................passed
+Then I am verify get category by id HTTP response code 200..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Categories" name="Create a product category with blank data input" time="1.239301">
+<system-out><![CDATA[Given I am send request for Create a product category with blank data input.passed
+Then I am verify Create a product category with blank data input HTTP response code 500.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Categories" name="Get all category with invalid endpoint" time="1.270735">
+<system-out><![CDATA[Given I am send request for Get all category with invalid endpoint..........passed
+Then I am verify Get all category with invalid endpoint HTTP response code 404.passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Categories" name="Get category with invalid ID" time="1.244393">
+<system-out><![CDATA[Given I am send request for Get category with invalid ID....................passed
+Then I am verify Get category with invalid ID HTTP response code 404........passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Create a product category",
+        "description": "",
+        "id": "product-categories;create-a-product-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1534973700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for create a category",
+            "match": {
+              "location": "product_categories.sendRequestCreateCategory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10737500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify create a category HTTP response code 200",
+            "match": {
+              "location": "product_categories.verifyCreateCategoryResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Get all product category",
+        "description": "",
+        "id": "product-categories;get-all-product-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1440913100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for get all category",
+            "match": {
+              "location": "product_categories.sendRequestGetAllCategory()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1546300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify get all category HTTP response code 200",
+            "match": {
+              "location": "product_categories.verifyGetAllCategoryResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get product category by ID",
+        "description": "",
+        "id": "product-categories;get-product-category-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239412200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for get category by id",
+            "match": {
+              "location": "product_categories.sendRequestGetCategoryByID()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2168100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify get category by id HTTP response code 200",
+            "match": {
+              "location": "product_categories.verifyGetCategoryByIDResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Create a product category with blank data input",
+        "description": "",
+        "id": "product-categories;create-a-product-category-with-blank-data-input",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1233522000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for Create a product category with blank data input",
+            "match": {
+              "location": "product_categories.sendRequestCreateProductCategoryWithBlankDataInput()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2361800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify Create a product category with blank data input HTTP response code 500",
+            "match": {
+              "location": "product_categories.verifyCreateProductCategoryWithBlankDataInpuResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Get all category with invalid endpoint",
+        "description": "",
+        "id": "product-categories;get-all-category-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1266365700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for Get all category with invalid endpoint",
+            "match": {
+              "location": "product_categories.sendRequestGetAllCategoryWithInvalidEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1730800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify Get all category with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "product_categories.verifyGetAllCategoryWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get category with invalid ID",
+        "description": "",
+        "id": "product-categories;get-category-with-invalid-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1240241200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for Get category with invalid ID",
+            "match": {
+              "location": "product_categories.sendRequestGetCategoryWithInvalidID()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1842700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify Get category with invalid ID HTTP response code 404",
+            "match": {
+              "location": "product_categories.verifyGetCategoryWithInvalidIDResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product Categories",
+    "description": "",
+    "id": "product-categories",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/product_categories.feature",
+    "tags": []
+  }
+]

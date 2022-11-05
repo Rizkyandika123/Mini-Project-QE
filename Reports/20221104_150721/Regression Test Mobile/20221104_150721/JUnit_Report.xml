@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test Mobile" time="85.307" tests="3" failures="0" errors="0">
+   <testsuite name="Regression Test Mobile" tests="3" failures="0" errors="0" time="85.307" skipped="0" timestamp="2022-11-04 15:07:36" hostname="iputu - Usop17" id="Test Suites/Regression Test Mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\iputu\\Katalon Studio\\Mini project\\Reports\\20221104_150721\\Regression Test Mobile\\20221104_150721"/>
+         <property name="logFiles" value="C:\\Users\\iputu\\Katalon Studio\\Mini project\\Reports\\20221104_150721\\Regression Test Mobile\\20221104_150721\\appium.log, C:\\Users\\iputu\\Katalon Studio\\Mini project\\Reports\\20221104_150721\\Regression Test Mobile\\20221104_150721\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iputu - Usop17"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86"/>
+         <property name="hostAddress" value="192.168.43.210"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Auth/TC001P_Register" time="34.491" classname="Test Cases/Mobile/Auth/TC001P_Register" status="PASSED">
+         <system-out><![CDATA[2022-11-04 15:07:36 - [TEST_CASE][PASSED] - Test Cases/Mobile/Auth/TC001P_Register: Test Cases/Mobile/Auth/TC001P_Register
+
+2022-11-04 15:07:36 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Auth/register.feature"): Feature file: 'Include/features/Mobile/Auth/register.feature' was passed
+
+2022-11-04 15:07:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Auth/register.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_150721\Regression Test Mobile\20221104_150721/cucumber_report/1667545656777'...
+
+2022-11-04 15:07:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As User, I want to register and make new account: SCENARIO As User, I want to register and make new account
+
+2022-11-04 15:07:38 - [TEST_STEP][PASSED] - I am on the register page: I am on the register page
+
+2022-11-04 15:07:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-04 15:07:40 - [MESSAGE][INFO] - Appium server started on port 56,217
+
+2022-11-04 15:07:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iputu\OneDrive\Desktop\MSIB\Mini project\app-release.apk'
+
+2022-11-04 15:07:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:07:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.Button - Logout'
+
+2022-11-04 15:07:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.Button - Form Register'
+
+2022-11-04 15:08:02 - [MESSAGE][PASSED] - I am on the register page
+
+2022-11-04 15:08:02 - [TEST_STEP][PASSED] - I am input Test lima ok in form fullname: I am input Test lima ok in form fullname
+
+2022-11-04 15:08:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.EditText - Form Fullname'
+
+2022-11-04 15:08:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:05 - [MESSAGE][PASSED] - Text 'Test lima ok' has been set to element 'Object Repository/Mobile/Register/android.widget.EditText - Form Fullname'
+
+2022-11-04 15:08:05 - [MESSAGE][PASSED] - I am input Test lima ok in form fullname
+
+2022-11-04 15:08:05 - [TEST_STEP][PASSED] - I am input testlimaok@email.com in form email: I am input testlimaok@email.com in form email
+
+2022-11-04 15:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.EditText - Form Email'
+
+2022-11-04 15:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:07 - [MESSAGE][PASSED] - Text 'testlimaok@email.com' has been set to element 'Object Repository/Mobile/Register/android.widget.EditText - Form Email'
+
+2022-11-04 15:08:07 - [MESSAGE][PASSED] - I am input testlimaok@email.com in form email
+
+2022-11-04 15:08:07 - [TEST_STEP][PASSED] - I am input tes1234567890 in form password: I am input tes1234567890 in form password
+
+2022-11-04 15:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.EditText - Form Password'
+
+2022-11-04 15:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:08 - [MESSAGE][PASSED] - Text 'tes1234567890' has been set to element 'Object Repository/Mobile/Register/android.widget.EditText - Form Password'
+
+2022-11-04 15:08:08 - [MESSAGE][PASSED] - I am input tes1234567890 in form password
+
+2022-11-04 15:08:08 - [TEST_STEP][PASSED] - I am click register button: I am click register button
+
+2022-11-04 15:08:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Register/android.widget.Button - Register'
+
+2022-11-04 15:08:09 - [MESSAGE][PASSED] - I am click register button
+
+2022-11-04 15:08:09 - [TEST_STEP][PASSED] - I am on the home page: I am on the home page
+
+2022-11-04 15:08:10 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-04 15:08:10 - [MESSAGE][PASSED] - I am on the home page
+
+2022-11-04 15:08:10 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Auth/register.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Auth/TC005P_Login" time="24.71" classname="Test Cases/Mobile/Auth/TC005P_Login" status="PASSED">
+         <system-out><![CDATA[2022-11-04 15:08:10 - [TEST_CASE][PASSED] - Test Cases/Mobile/Auth/TC005P_Login: Test Cases/Mobile/Auth/TC005P_Login
+
+2022-11-04 15:08:11 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Auth/login.feature"): Feature file: 'Include/features/Mobile/Auth/login.feature' was passed
+
+2022-11-04 15:08:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Auth/login.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_150721\Regression Test Mobile\20221104_150721/cucumber_report/1667545691234'...
+
+2022-11-04 15:08:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user, I want to login to the apps: SCENARIO As user, I want to login to the apps
+
+2022-11-04 15:08:11 - [TEST_STEP][PASSED] - I am on the login page: I am on the login page
+
+2022-11-04 15:08:12 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-04 15:08:13 - [MESSAGE][INFO] - Appium server started on port 56,404
+
+2022-11-04 15:08:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iputu\OneDrive\Desktop\MSIB\Mini project\app-release.apk'
+
+2022-11-04 15:08:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.Button'
+
+2022-11-04 15:08:28 - [MESSAGE][PASSED] - I am on the login page
+
+2022-11-04 15:08:28 - [TEST_STEP][PASSED] - I am input testsatu@email.com in form email in login page: I am input testsatu@email.com in form email in login page
+
+2022-11-04 15:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.EditText - Email'
+
+2022-11-04 15:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:32 - [MESSAGE][PASSED] - Text 'testsatu@email.com' has been set to element 'Object Repository/Mobile/Login/android.widget.EditText - Email'
+
+2022-11-04 15:08:32 - [MESSAGE][PASSED] - I am input testsatu@email.com in form email in login page
+
+2022-11-04 15:08:32 - [TEST_STEP][PASSED] - I am input 1234567890 in form password in login page: I am input 1234567890 in form password in login page
+
+2022-11-04 15:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.EditText - Password'
+
+2022-11-04 15:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:34 - [MESSAGE][PASSED] - Text '1234567890' has been set to element 'Object Repository/Mobile/Login/android.widget.EditText - Password'
+
+2022-11-04 15:08:34 - [MESSAGE][PASSED] - I am input 1234567890 in form password in login page
+
+2022-11-04 15:08:34 - [TEST_STEP][PASSED] - I am click login button: I am click login button
+
+2022-11-04 15:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.Button - Login'
+
+2022-11-04 15:08:34 - [MESSAGE][PASSED] - I am click login button
+
+2022-11-04 15:08:34 - [TEST_STEP][PASSED] - I am navigate to home page: I am navigate to home page
+
+2022-11-04 15:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:35 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Button - Page Title' is visible
+
+2022-11-04 15:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:35 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Page - Login Button' is visible
+
+2022-11-04 15:08:35 - [MESSAGE][PASSED] - I am navigate to home page
+
+2022-11-04 15:08:35 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Auth/login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Auth/TC010P_Logout" time="25.811" classname="Test Cases/Mobile/Auth/TC010P_Logout" status="PASSED">
+         <system-out><![CDATA[2022-11-04 15:08:35 - [TEST_CASE][PASSED] - Test Cases/Mobile/Auth/TC010P_Logout: Test Cases/Mobile/Auth/TC010P_Logout
+
+2022-11-04 15:08:35 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Auth/logout.feature"): Feature file: 'Include/features/Mobile/Auth/logout.feature' was passed
+
+2022-11-04 15:08:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Auth/logout.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_150721\Regression Test Mobile\20221104_150721/cucumber_report/1667545715908'...
+
+2022-11-04 15:08:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As a user, I want to logout from the application: SCENARIO As a user, I want to logout from the application
+
+2022-11-04 15:08:36 - [TEST_STEP][PASSED] - I am already on the home page: I am already on the home page
+
+2022-11-04 15:08:36 - [TEST_CASE][PASSED] - Test Cases/Mobile/Auth/TC005P_Login: Test Cases/Mobile/Auth/TC005P_Login
+
+2022-11-04 15:08:36 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Mobile/Auth/login.feature"): Feature file: 'Include/features/Mobile/Auth/login.feature' was passed
+
+2022-11-04 15:08:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Mobile/Auth/login.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_150721\Regression Test Mobile\20221104_150721/cucumber_report/1667545716837'...
+
+2022-11-04 15:08:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user, I want to login to the apps: SCENARIO As user, I want to login to the apps
+
+2022-11-04 15:08:37 - [TEST_STEP][PASSED] - I am on the login page: I am on the login page
+
+2022-11-04 15:08:50 - [MESSAGE][PASSED] - Started app at: 'C:\Users\iputu\OneDrive\Desktop\MSIB\Mini project\app-release.apk'
+
+2022-11-04 15:08:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.Button'
+
+2022-11-04 15:08:51 - [MESSAGE][PASSED] - I am on the login page
+
+2022-11-04 15:08:51 - [TEST_STEP][PASSED] - I am input testsatu@email.com in form email in login page: I am input testsatu@email.com in form email in login page
+
+2022-11-04 15:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.EditText - Email'
+
+2022-11-04 15:08:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:54 - [MESSAGE][PASSED] - Text 'testsatu@email.com' has been set to element 'Object Repository/Mobile/Login/android.widget.EditText - Email'
+
+2022-11-04 15:08:54 - [MESSAGE][PASSED] - I am input testsatu@email.com in form email in login page
+
+2022-11-04 15:08:54 - [TEST_STEP][PASSED] - I am input 1234567890 in form password in login page: I am input 1234567890 in form password in login page
+
+2022-11-04 15:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.EditText - Password'
+
+2022-11-04 15:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:56 - [MESSAGE][PASSED] - Text '1234567890' has been set to element 'Object Repository/Mobile/Login/android.widget.EditText - Password'
+
+2022-11-04 15:08:56 - [MESSAGE][PASSED] - I am input 1234567890 in form password in login page
+
+2022-11-04 15:08:56 - [TEST_STEP][PASSED] - I am click login button: I am click login button
+
+2022-11-04 15:08:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Login/android.widget.Button - Login'
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - I am click login button
+
+2022-11-04 15:08:57 - [TEST_STEP][PASSED] - I am navigate to home page: I am navigate to home page
+
+2022-11-04 15:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Button - Page Title' is visible
+
+2022-11-04 15:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Page - Login Button' is visible
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - I am navigate to home page
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Auth/login.feature' was passed
+
+2022-11-04 15:08:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Auth/TC005P_Login' successfully
+
+2022-11-04 15:08:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:58 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Button - Page Title' is exist
+
+2022-11-04 15:08:58 - [MESSAGE][PASSED] - I am already on the home page
+
+2022-11-04 15:08:58 - [TEST_STEP][PASSED] - I am click logout button: I am click logout button
+
+2022-11-04 15:08:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Logout/android.widget.Button'
+
+2022-11-04 15:08:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:08:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Logout/android.widget.Button'
+
+2022-11-04 15:08:59 - [MESSAGE][PASSED] - I am click logout button
+
+2022-11-04 15:08:59 - [TEST_STEP][PASSED] - I am navigate to login page: I am navigate to login page
+
+2022-11-04 15:08:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:09:00 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Button - Page Title' is exist
+
+2022-11-04 15:09:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-04 15:09:00 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/Verify Object/Verify Object Login Page - Login Button' is exist
+
+2022-11-04 15:09:01 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-04 15:09:01 - [MESSAGE][PASSED] - I am navigate to login page
+
+2022-11-04 15:09:01 - [MESSAGE][PASSED] - Feature file: 'Include/features/Mobile/Auth/logout.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-04 15:07:36 - [TEST_SUITE][PASSED] - Regression Test Mobile: Test Cases/Mobile/Auth/TC010P_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

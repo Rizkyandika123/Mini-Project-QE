@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "e7c45d62-e644-499d-8779-a00166f04a7c",
+        "line": 15,
+        "name": "As User, I want to register and make new account",
+        "description": "",
+        "id": "register;as-user--i-want-to-register-and-make-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24368329900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the register page",
+            "match": {
+              "location": "register.onTheRegisterPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "caf5eabf-7643-4e3a-9e61-445d68c954d3"
+          },
+          {
+            "result": {
+              "duration": 2434674500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am input Test lima ok in form fullname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test lima ok",
+                  "offset": 11
+                }
+              ],
+              "location": "register.inputFullnameInFormFullname(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3b54b688-632a-4822-ae4a-a9f189ce7eaa"
+          },
+          {
+            "result": {
+              "duration": 1862499200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am input testlimaok@email.com in form email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testlimaok@email.com",
+                  "offset": 11
+                }
+              ],
+              "location": "register.I_check_for_the_value_in_step(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cca770c9-7efb-4082-9c14-95d5b6efc9c3"
+          },
+          {
+            "result": {
+              "duration": 1440507700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am input tes1234567890 in form password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tes1234567890",
+                  "offset": 11
+                }
+              ],
+              "location": "register.I_check_for_the_value_in_stepwe(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f5fc9a5d-ea18-4baf-bffa-5fcc742b5b72"
+          },
+          {
+            "result": {
+              "duration": 777174700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am click register button",
+            "match": {
+              "location": "register.I_check_for_the_value_in_stepqwee()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "72ec96dd-21bd-4652-b89b-5404b6f095c1"
+          },
+          {
+            "result": {
+              "duration": 1457182100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the home page",
+            "match": {
+              "location": "register.I_verify_the_status_in_step()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "85d53a0f-72fb-448c-8890-2d309cc23567"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user\n  I want to register and make new account",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/Mobile/Auth/register.feature",
+    "tags": []
+  }
+]

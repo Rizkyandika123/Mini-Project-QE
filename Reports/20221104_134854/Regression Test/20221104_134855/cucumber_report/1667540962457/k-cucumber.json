@@ -1,0 +1,610 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "09c582e3-4350-4605-88a4-75e41b6e17e6",
+        "line": 3,
+        "name": "Create a new product",
+        "description": "",
+        "id": "product;create-a-new-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219772900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for Create a new product",
+            "match": {
+              "location": "products.sendRequestCreateNewProduct()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "bafc8523-7aae-4152-8748-ce74d71c7e97"
+          },
+          {
+            "result": {
+              "duration": 112260400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify Create a new product HTTP response code 200",
+            "match": {
+              "location": "products.verifyCreateNewProductResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e096d1ea-205a-43ab-bb0c-1a0abf6051eb"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8f01b479-c2b4-4149-99fb-4e373a0c450e",
+        "line": 7,
+        "name": "Get all product",
+        "description": "",
+        "id": "product;get-all-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2079356700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for Get all product",
+            "match": {
+              "location": "products.sendRequestGetAllProduct()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8bf66252-9cea-4b40-abe8-9067371d4493"
+          },
+          {
+            "result": {
+              "duration": 2540800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify Get all product HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetAllProductResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "82eeec28-2775-4a89-a17b-422e1ba869af"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b42fdd5b-c9af-4bb9-8b18-6a2dfc876b35",
+        "line": 11,
+        "name": "Get product by ID",
+        "description": "",
+        "id": "product;get-product-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1226907600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for Get product by ID",
+            "match": {
+              "location": "products.sendRequestGetProductById()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "54c75a09-fb5f-426d-aa62-172d44f9a6a4"
+          },
+          {
+            "result": {
+              "duration": 1853600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify Get product by ID HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductByIdResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "08149323-afc4-425b-88ec-e847b74ca1ee"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "bbd7a700-a893-4b3c-893e-9f6832a81c23",
+        "line": 15,
+        "name": "Delete a product",
+        "description": "",
+        "id": "product;delete-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1245151200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for Delete a product",
+            "match": {
+              "location": "products.sendRequestDeleteProduct()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c094743d-05c1-48a2-b5db-2682c651210c"
+          },
+          {
+            "result": {
+              "duration": 2201700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify Delete a product HTTP response code 200",
+            "match": {
+              "location": "products.verifyDeleteProductResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0c096920-17f2-410c-9061-060518cf053b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "f7997536-c1b5-4d3a-b057-79a742c859d6",
+        "line": 19,
+        "name": "Assign a product rating",
+        "description": "",
+        "id": "product;assign-a-product-rating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1228436000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for Assign a product rating",
+            "match": {
+              "location": "products.sendRequestAssignProductRating()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d36da42a-59ae-4df7-b438-4a251c64ca87"
+          },
+          {
+            "result": {
+              "duration": 1756700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify Assign a product rating HTTP response code 200",
+            "match": {
+              "location": "products.verifyAssignProductRatingResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "382627a5-4b6d-4cc7-832a-3df6aa62ff7b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "3bfaca50-9da6-4dd6-8163-138fc89dbbe4",
+        "line": 23,
+        "name": "Get product ratings",
+        "description": "",
+        "id": "product;get-product-ratings",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271884200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for Get product ratings",
+            "match": {
+              "location": "products.sendRequestGetProductRatings()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8d499987-d2d4-40c5-8fdd-e761f9218383"
+          },
+          {
+            "result": {
+              "duration": 1686100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify Get product ratings HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductRatingsResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8a7db0f9-0e87-4c8a-9084-9f90abd1fb70"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "602510bd-64a2-4b98-a652-d9742abc0dba",
+        "line": 27,
+        "name": "Create a comment of product",
+        "description": "",
+        "id": "product;create-a-comment-of-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1273364800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am send request for Create a comment of product",
+            "match": {
+              "location": "products.sendRequestCreateCommentOfProduct()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "93e2d7ee-5c79-48c1-a559-25b8db046ac8"
+          },
+          {
+            "result": {
+              "duration": 1932000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am verify Create a comment of product HTTP response code 200",
+            "match": {
+              "location": "products.verifyCreateCommentOfProductResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "0eae39c7-4ed7-4858-b7b5-ed230eca3823"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5c32a3ed-4bbd-49ca-b0a3-e21b12876277",
+        "line": 31,
+        "name": "Get product comment",
+        "description": "",
+        "id": "product;get-product-comment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1195656100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am send request for Get product comment",
+            "match": {
+              "location": "products.sendRequestGetProductComment()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7f781a44-1b0c-4322-91f3-6dfe3cec25a7"
+          },
+          {
+            "result": {
+              "duration": 2017600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am verify Get product comment HTTP response code 200",
+            "match": {
+              "location": "products.verifyGetProductCommentResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "991894d4-6cad-4d3a-8566-c2765ca1bead"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "49892699-3995-4739-a8cd-193c27c4315f",
+        "line": 36,
+        "name": "Create a new product with invalid endpoint",
+        "description": "",
+        "id": "product;create-a-new-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1193540800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am send request for Create a new product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestCreateNewProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "95b99921-70ae-45d5-8967-9b8ecefa5950"
+          },
+          {
+            "result": {
+              "duration": 1772900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am verify Create a new product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyCreateNewProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1bec8f10-cb58-41fa-b334-7b524e43a9ec"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7bb7b397-2649-4778-afc9-9a5d98c30396",
+        "line": 40,
+        "name": "Get all product with invalid endpoint",
+        "description": "",
+        "id": "product;get-all-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236811900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am send request for Get all product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetAllProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5f7daa16-664c-4c26-96cd-0896aa9267de"
+          },
+          {
+            "result": {
+              "duration": 1698500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am verify Get all product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetAllProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8e7f2686-bf7b-4688-befc-f6cc8dd0a546"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "d23c6ad2-d1f4-41f1-83f6-614211a38916",
+        "line": 44,
+        "name": "Get product by ID with invalid ID",
+        "description": "",
+        "id": "product;get-product-by-id-with-invalid-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258964600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am send request for Get product by ID with invalid ID",
+            "match": {
+              "location": "products.sendRequestGetProductByIdWithInvalidId()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "1e576085-d1ed-4bca-8a8d-4bce90786287"
+          },
+          {
+            "result": {
+              "duration": 1547400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am verify Get product by ID with invalid ID HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductByIdWithInvalidIdResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "162ee5e0-88f1-4c4c-bebf-9a3193f22f11"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "26298211-ffdc-46a4-8b55-49de01a0b38c",
+        "line": 48,
+        "name": "Delete a product with invalid endpoint",
+        "description": "",
+        "id": "product;delete-a-product-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1214322300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I am send request for Delete a product with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestDeleteProductWithInvalidEndpoint()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "3c3d8e11-30c8-4516-bfd5-a7db1eeac45d"
+          },
+          {
+            "result": {
+              "duration": 1574900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I am verify Delete a product with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyDeleteProductWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ea202972-ab88-46d5-8d46-20a381fe597f"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "8092af3c-a100-4262-8a95-8d322b9eb22a",
+        "line": 52,
+        "name": "Assign a product rating without access token",
+        "description": "",
+        "id": "product;assign-a-product-rating-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1189234000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I am send request for Assign a product rating without access token",
+            "match": {
+              "location": "products.sendRequestAssignProductRatingWithoutAccessToken()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "6e116136-57f3-4edc-bf04-9a864f7b9611"
+          },
+          {
+            "result": {
+              "duration": 1848800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am verify Assign a product rating HTTP response code 401",
+            "match": {
+              "location": "products.verifyAssignProductRatingWithoutAccessTokenResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c63dbaa1-e2da-464e-b4ac-ad518211617e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4596613b-b42d-4052-8006-d61aef30081e",
+        "line": 56,
+        "name": "Get product ratings with invalid endpoint",
+        "description": "",
+        "id": "product;get-product-ratings-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244874100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I am send request for Get product ratings with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetProductRatingsWithInvalidEndpoint()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "e569b249-2cb0-49f5-b1d4-1915162c36a7"
+          },
+          {
+            "result": {
+              "duration": 1565700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I am verify Get product ratings HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductRatingsWithInvalidEndpointResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "46fc4c6c-722c-486c-8f4b-a5a71ebd7b17"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "79db32bf-5c63-4931-b6ea-dc0389c3a367",
+        "line": 60,
+        "name": "Create a comment of product without access token",
+        "description": "",
+        "id": "product;create-a-comment-of-product-without-access-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1537663000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I am send request for Create a comment of product without access token",
+            "match": {
+              "location": "products.sendRequestCreateCommentOfProductWithoutAccessToken()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "832e1c7d-d891-4d10-97a5-70c690c371d2"
+          },
+          {
+            "result": {
+              "duration": 1498800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I am verify Create a comment of product without access token HTTP response code 401",
+            "match": {
+              "location": "products.verifyCreateCommentOfProductWithoutAccessTokenResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "356ae5a0-ae8d-4049-a068-750adaec1d78"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2a8a2707-3531-41e0-8d5d-e6539592e996",
+        "line": 64,
+        "name": "Get product comment with invalid endpoint",
+        "description": "",
+        "id": "product;get-product-comment-with-invalid-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1242427100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I am send request for Get product comment with invalid endpoint",
+            "match": {
+              "location": "products.sendRequestGetProductCommentWithInvalidEndpoint()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "412d6c1e-d228-433e-9621-37aaf82290a7"
+          },
+          {
+            "result": {
+              "duration": 1616200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I am verify Get product comment with invalid endpoint HTTP response code 404",
+            "match": {
+              "location": "products.verifyGetProductWithInvalidEndpointCommentResponseCode()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "dc67c3fc-6d58-4527-8992-3dedb470b310"
+          }
+        ]
+      }
+    ],
+    "name": "Product",
+    "description": "",
+    "id": "product",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/product.feature",
+    "tags": []
+  }
+]

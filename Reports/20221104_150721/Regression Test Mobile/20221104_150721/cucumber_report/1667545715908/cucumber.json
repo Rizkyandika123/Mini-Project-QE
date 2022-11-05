@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "As a user, I want to logout from the application",
+        "description": "",
+        "id": "logout;as-a-user--i-want-to-logout-from-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21521918400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am already on the home page",
+            "match": {
+              "location": "logout.alreadyOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1411944700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am click logout button",
+            "match": {
+              "location": "logout.clickLogoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1787686700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am navigate to login page",
+            "match": {
+              "location": "logout.navigateToLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "\tAs a user\n  I want to logout from the application",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/Mobile/Auth/logout.feature",
+    "tags": []
+  }
+]

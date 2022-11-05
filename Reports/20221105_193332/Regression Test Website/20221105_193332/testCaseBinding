@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Website/Auth/TC001_Create Account","testCaseId":"Test Cases/Website/Auth/TC001_Create Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Auth/TC002_Login Account","testCaseId":"Test Cases/Website/Auth/TC002_Login Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Auth/TC003_Logout Account","testCaseId":"Test Cases/Website/Auth/TC003_Logout Account","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Homepage/TC004_Select Category","testCaseId":"Test Cases/Website/Homepage/TC004_Select Category","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Homepage/TC005_View Items","testCaseId":"Test Cases/Website/Homepage/TC005_View Items","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Homepage/TC006_Buy Items","testCaseId":"Test Cases/Website/Homepage/TC006_Buy Items","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Shopping Cart/TC007_Reduce Items","testCaseId":"Test Cases/Website/Shopping Cart/TC007_Reduce Items","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Shopping Cart/TC008_Add Items","testCaseId":"Test Cases/Website/Shopping Cart/TC008_Add Items","iterationVariableName":""}
+{"testCaseName":"Test Cases/Website/Shopping Cart/TC009_Pay Items","testCaseId":"Test Cases/Website/Shopping Cart/TC009_Pay Items","iterationVariableName":""}

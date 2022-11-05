@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,2022-11-04 13:49:02,2022-11-04 13:49:52,50.114s,PASSED
+,,,,,,,
+Test Cases/API/runFeatureFile_Auth,,,,2022-11-04 13:49:03,2022-11-04 13:49:13,10.841s,PASSED
+"runFeatureFile(""Include/features/API/auth.feature"")",,,,2022-11-04 13:49:03,2022-11-04 13:49:13,10.486s,PASSED
+,,,,,,,
+Test Cases/API/runFeatureFile_Order,,,,2022-11-04 13:49:13,2022-11-04 13:49:22,8.362s,PASSED
+"runFeatureFolder(""Include/features/API/order.feature"")",,,,2022-11-04 13:49:14,2022-11-04 13:49:22,8.129s,PASSED
+,,,,,,,
+Test Cases/API/runFeatureFile_Product,,,,2022-11-04 13:49:22,2022-11-04 13:49:44,21.870s,PASSED
+"runFeatureFile(""Include/features/API/product.feature"")",,,,2022-11-04 13:49:22,2022-11-04 13:49:44,21.616s,PASSED
+,,,,,,,
+Test Cases/API/runFeatureFile_Product_category,,,,2022-11-04 13:49:44,2022-11-04 13:49:52,8.747s,PASSED
+"runFeatureFile(""Include/features/API/product_categories.feature"")",,,,2022-11-04 13:49:44,2022-11-04 13:49:52,8.528s,PASSED

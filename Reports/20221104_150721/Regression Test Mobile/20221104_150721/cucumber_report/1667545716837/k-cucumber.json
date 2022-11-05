@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "c24d35a0-d205-4460-af20-7325785f4658",
+        "line": 14,
+        "name": "As user, I want to login to the apps",
+        "description": "",
+        "id": "login;as-user--i-want-to-login-to-the-apps;s;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13847681500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the login page",
+            "match": {
+              "location": "login.onTheLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "655b8e32-5942-48e7-b0d5-6c1a1e95593a"
+          },
+          {
+            "result": {
+              "duration": 3398230800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am input testsatu@email.com in form email in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testsatu@email.com",
+                  "offset": 11
+                }
+              ],
+              "location": "login.inputEmail(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ab8e2e7c-85b6-4743-947e-db81353286a0"
+          },
+          {
+            "result": {
+              "duration": 1716887300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am input 1234567890 in form password in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 11
+                }
+              ],
+              "location": "login.inputPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8b5d9460-5812-4daf-b207-657040eb636b"
+          },
+          {
+            "result": {
+              "duration": 693651500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am click login button",
+            "match": {
+              "location": "login.clickLoginButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e8e80b31-936c-4a7c-ba53-21e56effee05"
+          },
+          {
+            "result": {
+              "duration": 762146600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am navigate to home page",
+            "match": {
+              "location": "login.navigateToHomePage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7c3a1f1c-e006-4cf4-b89b-c182293a2f1e"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user\n  I want to login to the apps",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/Mobile/Auth/login.feature",
+    "tags": []
+  }
+]

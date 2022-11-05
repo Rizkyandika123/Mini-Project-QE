@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="50.114" tests="4" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="4" failures="0" errors="0" time="50.114" skipped="0" timestamp="2022-11-04 13:49:02" hostname="iputu - Usop17" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\iputu\\Katalon Studio\\Mini project\\Reports\\20221104_134854\\Regression Test\\20221104_134855"/>
+         <property name="logFiles" value="C:\\Users\\iputu\\Katalon Studio\\Mini project\\Reports\\20221104_134854\\Regression Test\\20221104_134855\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="iputu - Usop17"/>
+         <property name="hostAddress" value="192.168.43.210"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/API/runFeatureFile_Auth" time="10.841" classname="Test Cases/API/runFeatureFile_Auth" status="PASSED">
+         <system-out><![CDATA[2022-11-04 13:49:03 - [TEST_CASE][PASSED] - Test Cases/API/runFeatureFile_Auth: Test Cases/API/runFeatureFile_Auth
+
+2022-11-04 13:49:03 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/API/auth.feature"): Feature file: 'Include/features/API/auth.feature' was passed
+
+2022-11-04 13:49:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/API/auth.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855/cucumber_report/1667540943398'...
+
+2022-11-04 13:49:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register: SCENARIO Register
+
+2022-11-04 13:49:04 - [TEST_STEP][PASSED] - I am send request for register: I am send request for register
+
+2022-11-04 13:49:07 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\0.har
+
+2022-11-04 13:49:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:07 - [MESSAGE][PASSED] - I am send request for register
+
+2022-11-04 13:49:07 - [TEST_STEP][PASSED] - I am verify register HTTP response code 200: I am verify register HTTP response code 200
+
+2022-11-04 13:49:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:07 - [MESSAGE][PASSED] - I am verify register HTTP response code 200
+
+2022-11-04 13:49:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2022-11-04 13:49:07 - [TEST_STEP][PASSED] - I am send request for login: I am send request for login
+
+2022-11-04 13:49:08 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\1.har
+
+2022-11-04 13:49:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:08 - [MESSAGE][PASSED] - I am send request for login
+
+2022-11-04 13:49:08 - [TEST_STEP][PASSED] - I am verify login HTTP response code 200: I am verify login HTTP response code 200
+
+2022-11-04 13:49:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:08 - [MESSAGE][PASSED] - I am verify login HTTP response code 200
+
+2022-11-04 13:49:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get user information: SCENARIO Get user information
+
+2022-11-04 13:49:08 - [TEST_STEP][PASSED] - I am send request for get user information: I am send request for get user information
+
+2022-11-04 13:49:09 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\2.har
+
+2022-11-04 13:49:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:09 - [MESSAGE][PASSED] - I am send request for get user information
+
+2022-11-04 13:49:09 - [TEST_STEP][PASSED] - I am verify user information HTTP response code 200: I am verify user information HTTP response code 200
+
+2022-11-04 13:49:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:09 - [MESSAGE][PASSED] - I am verify user information HTTP response code 200
+
+2022-11-04 13:49:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with same email: SCENARIO Register with same email
+
+2022-11-04 13:49:09 - [TEST_STEP][PASSED] - I am send request for register with same email: I am send request for register with same email
+
+2022-11-04 13:49:11 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\3.har
+
+2022-11-04 13:49:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:11 - [MESSAGE][PASSED] - I am send request for register with same email
+
+2022-11-04 13:49:11 - [TEST_STEP][PASSED] - I am verify register with same email HTTP response code 400: I am verify register with same email HTTP response code 400
+
+2022-11-04 13:49:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:11 - [MESSAGE][PASSED] - I am verify register with same email HTTP response code 400
+
+2022-11-04 13:49:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with invalid password: SCENARIO Login with invalid password
+
+2022-11-04 13:49:11 - [TEST_STEP][PASSED] - I am send request for login with invalid password: I am send request for login with invalid password
+
+2022-11-04 13:49:12 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\4.har
+
+2022-11-04 13:49:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:12 - [MESSAGE][PASSED] - I am send request for login with invalid password
+
+2022-11-04 13:49:12 - [TEST_STEP][PASSED] - I am verify login HTTP response code 400: I am verify login HTTP response code 400
+
+2022-11-04 13:49:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:12 - [MESSAGE][PASSED] - I am verify login HTTP response code 400
+
+2022-11-04 13:49:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get user information without login: SCENARIO Get user information without login
+
+2022-11-04 13:49:12 - [TEST_STEP][PASSED] - I am send request for get user information without login: I am send request for get user information without login
+
+2022-11-04 13:49:13 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\5.har
+
+2022-11-04 13:49:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:13 - [MESSAGE][PASSED] - I am send request for get user information without login
+
+2022-11-04 13:49:13 - [TEST_STEP][PASSED] - I am verify user information without login HTTP response code 401: I am verify user information without login HTTP response code 401
+
+2022-11-04 13:49:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:13 - [MESSAGE][PASSED] - I am verify user information without login HTTP response code 401
+
+2022-11-04 13:49:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/API/auth.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/runFeatureFile_Order" time="8.362" classname="Test Cases/API/runFeatureFile_Order" status="PASSED">
+         <system-out><![CDATA[2022-11-04 13:49:13 - [TEST_CASE][PASSED] - Test Cases/API/runFeatureFile_Order: Test Cases/API/runFeatureFile_Order
+
+2022-11-04 13:49:14 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features/API/order.feature"): All feature files in 'Include/features/API/order.feature' were passed
+
+2022-11-04 13:49:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features/API/order.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855/cucumber_report/1667540954074'...
+
+2022-11-04 13:49:15 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\6.har
+
+2022-11-04 13:49:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:17 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\7.har
+
+2022-11-04 13:49:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:18 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\8.har
+
+2022-11-04 13:49:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:19 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\9.har
+
+2022-11-04 13:49:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:20 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\10.har
+
+2022-11-04 13:49:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:22 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\11.har
+
+2022-11-04 13:49:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:22 - [MESSAGE][PASSED] - All feature files in 'Include/features/API/order.feature' were passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/runFeatureFile_Product" time="21.87" classname="Test Cases/API/runFeatureFile_Product" status="PASSED">
+         <system-out><![CDATA[2022-11-04 13:49:22 - [TEST_CASE][PASSED] - Test Cases/API/runFeatureFile_Product: Test Cases/API/runFeatureFile_Product
+
+2022-11-04 13:49:22 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/API/product.feature"): Feature file: 'Include/features/API/product.feature' was passed
+
+2022-11-04 13:49:22 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/API/product.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855/cucumber_report/1667540962457'...
+
+2022-11-04 13:49:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a new product: SCENARIO Create a new product
+
+2022-11-04 13:49:23 - [TEST_STEP][PASSED] - I am send request for Create a new product: I am send request for Create a new product
+
+2022-11-04 13:49:24 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\12.har
+
+2022-11-04 13:49:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:24 - [MESSAGE][PASSED] - I am send request for Create a new product
+
+2022-11-04 13:49:24 - [TEST_STEP][PASSED] - I am verify Create a new product HTTP response code 200: I am verify Create a new product HTTP response code 200
+
+2022-11-04 13:49:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:24 - [MESSAGE][PASSED] - I am verify Create a new product HTTP response code 200
+
+2022-11-04 13:49:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get all product: SCENARIO Get all product
+
+2022-11-04 13:49:24 - [TEST_STEP][PASSED] - I am send request for Get all product: I am send request for Get all product
+
+2022-11-04 13:49:26 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\13.har
+
+2022-11-04 13:49:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:26 - [MESSAGE][PASSED] - I am send request for Get all product
+
+2022-11-04 13:49:26 - [TEST_STEP][PASSED] - I am verify Get all product HTTP response code 200: I am verify Get all product HTTP response code 200
+
+2022-11-04 13:49:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:26 - [MESSAGE][PASSED] - I am verify Get all product HTTP response code 200
+
+2022-11-04 13:49:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product by ID: SCENARIO Get product by ID
+
+2022-11-04 13:49:26 - [TEST_STEP][PASSED] - I am send request for Get product by ID: I am send request for Get product by ID
+
+2022-11-04 13:49:27 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\14.har
+
+2022-11-04 13:49:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:27 - [MESSAGE][PASSED] - I am send request for Get product by ID
+
+2022-11-04 13:49:27 - [TEST_STEP][PASSED] - I am verify Get product by ID HTTP response code 200: I am verify Get product by ID HTTP response code 200
+
+2022-11-04 13:49:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:27 - [MESSAGE][PASSED] - I am verify Get product by ID HTTP response code 200
+
+2022-11-04 13:49:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete a product: SCENARIO Delete a product
+
+2022-11-04 13:49:27 - [TEST_STEP][PASSED] - I am send request for Delete a product: I am send request for Delete a product
+
+2022-11-04 13:49:28 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\15.har
+
+2022-11-04 13:49:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:28 - [MESSAGE][PASSED] - I am send request for Delete a product
+
+2022-11-04 13:49:28 - [TEST_STEP][PASSED] - I am verify Delete a product HTTP response code 200: I am verify Delete a product HTTP response code 200
+
+2022-11-04 13:49:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:28 - [MESSAGE][PASSED] - I am verify Delete a product HTTP response code 200
+
+2022-11-04 13:49:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign a product rating: SCENARIO Assign a product rating
+
+2022-11-04 13:49:28 - [TEST_STEP][PASSED] - I am send request for Assign a product rating: I am send request for Assign a product rating
+
+2022-11-04 13:49:30 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\16.har
+
+2022-11-04 13:49:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:30 - [MESSAGE][PASSED] - I am send request for Assign a product rating
+
+2022-11-04 13:49:30 - [TEST_STEP][PASSED] - I am verify Assign a product rating HTTP response code 200: I am verify Assign a product rating HTTP response code 200
+
+2022-11-04 13:49:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:30 - [MESSAGE][PASSED] - I am verify Assign a product rating HTTP response code 200
+
+2022-11-04 13:49:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product ratings: SCENARIO Get product ratings
+
+2022-11-04 13:49:30 - [TEST_STEP][PASSED] - I am send request for Get product ratings: I am send request for Get product ratings
+
+2022-11-04 13:49:31 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\17.har
+
+2022-11-04 13:49:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:31 - [MESSAGE][PASSED] - I am send request for Get product ratings
+
+2022-11-04 13:49:31 - [TEST_STEP][PASSED] - I am verify Get product ratings HTTP response code 200: I am verify Get product ratings HTTP response code 200
+
+2022-11-04 13:49:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:31 - [MESSAGE][PASSED] - I am verify Get product ratings HTTP response code 200
+
+2022-11-04 13:49:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a comment of product: SCENARIO Create a comment of product
+
+2022-11-04 13:49:31 - [TEST_STEP][PASSED] - I am send request for Create a comment of product: I am send request for Create a comment of product
+
+2022-11-04 13:49:32 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\18.har
+
+2022-11-04 13:49:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:32 - [MESSAGE][PASSED] - I am send request for Create a comment of product
+
+2022-11-04 13:49:32 - [TEST_STEP][PASSED] - I am verify Create a comment of product HTTP response code 200: I am verify Create a comment of product HTTP response code 200
+
+2022-11-04 13:49:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:32 - [MESSAGE][PASSED] - I am verify Create a comment of product HTTP response code 200
+
+2022-11-04 13:49:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product comment: SCENARIO Get product comment
+
+2022-11-04 13:49:32 - [TEST_STEP][PASSED] - I am send request for Get product comment: I am send request for Get product comment
+
+2022-11-04 13:49:33 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\19.har
+
+2022-11-04 13:49:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:33 - [MESSAGE][PASSED] - I am send request for Get product comment
+
+2022-11-04 13:49:33 - [TEST_STEP][PASSED] - I am verify Get product comment HTTP response code 200: I am verify Get product comment HTTP response code 200
+
+2022-11-04 13:49:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:33 - [MESSAGE][PASSED] - I am verify Get product comment HTTP response code 200
+
+2022-11-04 13:49:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a new product with invalid endpoint: SCENARIO Create a new product with invalid endpoint
+
+2022-11-04 13:49:33 - [TEST_STEP][PASSED] - I am send request for Create a new product with invalid endpoint: I am send request for Create a new product with invalid endpoint
+
+2022-11-04 13:49:35 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\20.har
+
+2022-11-04 13:49:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:35 - [MESSAGE][PASSED] - I am send request for Create a new product with invalid endpoint
+
+2022-11-04 13:49:35 - [TEST_STEP][PASSED] - I am verify Create a new product with invalid endpoint HTTP response code 404: I am verify Create a new product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:35 - [MESSAGE][PASSED] - I am verify Create a new product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get all product with invalid endpoint: SCENARIO Get all product with invalid endpoint
+
+2022-11-04 13:49:35 - [TEST_STEP][PASSED] - I am send request for Get all product with invalid endpoint: I am send request for Get all product with invalid endpoint
+
+2022-11-04 13:49:36 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\21.har
+
+2022-11-04 13:49:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:36 - [MESSAGE][PASSED] - I am send request for Get all product with invalid endpoint
+
+2022-11-04 13:49:36 - [TEST_STEP][PASSED] - I am verify Get all product with invalid endpoint HTTP response code 404: I am verify Get all product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:36 - [MESSAGE][PASSED] - I am verify Get all product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product by ID with invalid ID: SCENARIO Get product by ID with invalid ID
+
+2022-11-04 13:49:36 - [TEST_STEP][PASSED] - I am send request for Get product by ID with invalid ID: I am send request for Get product by ID with invalid ID
+
+2022-11-04 13:49:37 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\22.har
+
+2022-11-04 13:49:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:37 - [MESSAGE][PASSED] - I am send request for Get product by ID with invalid ID
+
+2022-11-04 13:49:37 - [TEST_STEP][PASSED] - I am verify Get product by ID with invalid ID HTTP response code 404: I am verify Get product by ID with invalid ID HTTP response code 404
+
+2022-11-04 13:49:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:37 - [MESSAGE][PASSED] - I am verify Get product by ID with invalid ID HTTP response code 404
+
+2022-11-04 13:49:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete a product with invalid endpoint: SCENARIO Delete a product with invalid endpoint
+
+2022-11-04 13:49:37 - [TEST_STEP][PASSED] - I am send request for Delete a product with invalid endpoint: I am send request for Delete a product with invalid endpoint
+
+2022-11-04 13:49:38 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\23.har
+
+2022-11-04 13:49:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:38 - [MESSAGE][PASSED] - I am send request for Delete a product with invalid endpoint
+
+2022-11-04 13:49:38 - [TEST_STEP][PASSED] - I am verify Delete a product with invalid endpoint HTTP response code 404: I am verify Delete a product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:38 - [MESSAGE][PASSED] - I am verify Delete a product with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign a product rating without access token: SCENARIO Assign a product rating without access token
+
+2022-11-04 13:49:38 - [TEST_STEP][PASSED] - I am send request for Assign a product rating without access token: I am send request for Assign a product rating without access token
+
+2022-11-04 13:49:40 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\24.har
+
+2022-11-04 13:49:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:40 - [MESSAGE][PASSED] - I am send request for Assign a product rating without access token
+
+2022-11-04 13:49:40 - [TEST_STEP][PASSED] - I am verify Assign a product rating HTTP response code 401: I am verify Assign a product rating HTTP response code 401
+
+2022-11-04 13:49:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:40 - [MESSAGE][PASSED] - I am verify Assign a product rating HTTP response code 401
+
+2022-11-04 13:49:40 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product ratings with invalid endpoint: SCENARIO Get product ratings with invalid endpoint
+
+2022-11-04 13:49:40 - [TEST_STEP][PASSED] - I am send request for Get product ratings with invalid endpoint: I am send request for Get product ratings with invalid endpoint
+
+2022-11-04 13:49:41 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\25.har
+
+2022-11-04 13:49:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:41 - [MESSAGE][PASSED] - I am send request for Get product ratings with invalid endpoint
+
+2022-11-04 13:49:41 - [TEST_STEP][PASSED] - I am verify Get product ratings HTTP response code 404: I am verify Get product ratings HTTP response code 404
+
+2022-11-04 13:49:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:41 - [MESSAGE][PASSED] - I am verify Get product ratings HTTP response code 404
+
+2022-11-04 13:49:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a comment of product without access token: SCENARIO Create a comment of product without access token
+
+2022-11-04 13:49:41 - [TEST_STEP][PASSED] - I am send request for Create a comment of product without access token: I am send request for Create a comment of product without access token
+
+2022-11-04 13:49:42 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\26.har
+
+2022-11-04 13:49:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:42 - [MESSAGE][PASSED] - I am send request for Create a comment of product without access token
+
+2022-11-04 13:49:42 - [TEST_STEP][PASSED] - I am verify Create a comment of product without access token HTTP response code 401: I am verify Create a comment of product without access token HTTP response code 401
+
+2022-11-04 13:49:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:42 - [MESSAGE][PASSED] - I am verify Create a comment of product without access token HTTP response code 401
+
+2022-11-04 13:49:42 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product comment with invalid endpoint: SCENARIO Get product comment with invalid endpoint
+
+2022-11-04 13:49:42 - [TEST_STEP][PASSED] - I am send request for Get product comment with invalid endpoint: I am send request for Get product comment with invalid endpoint
+
+2022-11-04 13:49:44 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\27.har
+
+2022-11-04 13:49:44 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:44 - [MESSAGE][PASSED] - I am send request for Get product comment with invalid endpoint
+
+2022-11-04 13:49:44 - [TEST_STEP][PASSED] - I am verify Get product comment with invalid endpoint HTTP response code 404: I am verify Get product comment with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:44 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:44 - [MESSAGE][PASSED] - I am verify Get product comment with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:44 - [MESSAGE][PASSED] - Feature file: 'Include/features/API/product.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/runFeatureFile_Product_category" time="8.747" classname="Test Cases/API/runFeatureFile_Product_category" status="PASSED">
+         <system-out><![CDATA[2022-11-04 13:49:44 - [TEST_CASE][PASSED] - Test Cases/API/runFeatureFile_Product_category: Test Cases/API/runFeatureFile_Product_category
+
+2022-11-04 13:49:44 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/API/product_categories.feature"): Feature file: 'Include/features/API/product_categories.feature' was passed
+
+2022-11-04 13:49:44 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/API/product_categories.feature' and extract report to folder: 'C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855/cucumber_report/1667540984310'...
+
+2022-11-04 13:49:44 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a product category: SCENARIO Create a product category
+
+2022-11-04 13:49:44 - [TEST_STEP][PASSED] - I am send request for create a category: I am send request for create a category
+
+2022-11-04 13:49:46 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\28.har
+
+2022-11-04 13:49:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:46 - [MESSAGE][PASSED] - I am send request for create a category
+
+2022-11-04 13:49:46 - [TEST_STEP][PASSED] - I am verify create a category HTTP response code 200: I am verify create a category HTTP response code 200
+
+2022-11-04 13:49:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:46 - [MESSAGE][PASSED] - I am verify create a category HTTP response code 200
+
+2022-11-04 13:49:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get all product category: SCENARIO Get all product category
+
+2022-11-04 13:49:46 - [TEST_STEP][PASSED] - I am send request for get all category: I am send request for get all category
+
+2022-11-04 13:49:47 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\29.har
+
+2022-11-04 13:49:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:47 - [MESSAGE][PASSED] - I am send request for get all category
+
+2022-11-04 13:49:47 - [TEST_STEP][PASSED] - I am verify get all category HTTP response code 200: I am verify get all category HTTP response code 200
+
+2022-11-04 13:49:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:47 - [MESSAGE][PASSED] - I am verify get all category HTTP response code 200
+
+2022-11-04 13:49:47 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get product category by ID: SCENARIO Get product category by ID
+
+2022-11-04 13:49:47 - [TEST_STEP][PASSED] - I am send request for get category by id: I am send request for get category by id
+
+2022-11-04 13:49:49 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\30.har
+
+2022-11-04 13:49:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:49 - [MESSAGE][PASSED] - I am send request for get category by id
+
+2022-11-04 13:49:49 - [TEST_STEP][PASSED] - I am verify get category by id HTTP response code 200: I am verify get category by id HTTP response code 200
+
+2022-11-04 13:49:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:49 - [MESSAGE][PASSED] - I am verify get category by id HTTP response code 200
+
+2022-11-04 13:49:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a product category with blank data input: SCENARIO Create a product category with blank data input
+
+2022-11-04 13:49:49 - [TEST_STEP][PASSED] - I am send request for Create a product category with blank data input: I am send request for Create a product category with blank data input
+
+2022-11-04 13:49:50 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\31.har
+
+2022-11-04 13:49:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:50 - [MESSAGE][PASSED] - I am send request for Create a product category with blank data input
+
+2022-11-04 13:49:50 - [TEST_STEP][PASSED] - I am verify Create a product category with blank data input HTTP response code 500: I am verify Create a product category with blank data input HTTP response code 500
+
+2022-11-04 13:49:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:50 - [MESSAGE][PASSED] - I am verify Create a product category with blank data input HTTP response code 500
+
+2022-11-04 13:49:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get all category with invalid endpoint: SCENARIO Get all category with invalid endpoint
+
+2022-11-04 13:49:50 - [TEST_STEP][PASSED] - I am send request for Get all category with invalid endpoint: I am send request for Get all category with invalid endpoint
+
+2022-11-04 13:49:51 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\32.har
+
+2022-11-04 13:49:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:51 - [MESSAGE][PASSED] - I am send request for Get all category with invalid endpoint
+
+2022-11-04 13:49:51 - [TEST_STEP][PASSED] - I am verify Get all category with invalid endpoint HTTP response code 404: I am verify Get all category with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:51 - [MESSAGE][PASSED] - I am verify Get all category with invalid endpoint HTTP response code 404
+
+2022-11-04 13:49:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Get category with invalid ID: SCENARIO Get category with invalid ID
+
+2022-11-04 13:49:51 - [TEST_STEP][PASSED] - I am send request for Get category with invalid ID: I am send request for Get category with invalid ID
+
+2022-11-04 13:49:52 - [MESSAGE][INFO] - HAR: C:\Users\iputu\Katalon Studio\Mini project\Reports\20221104_134854\Regression Test\20221104_134855\requests\main\33.har
+
+2022-11-04 13:49:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-04 13:49:52 - [MESSAGE][PASSED] - I am send request for Get category with invalid ID
+
+2022-11-04 13:49:52 - [TEST_STEP][PASSED] - I am verify Get category with invalid ID HTTP response code 404: I am verify Get category with invalid ID HTTP response code 404
+
+2022-11-04 13:49:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-04 13:49:52 - [MESSAGE][PASSED] - I am verify Get category with invalid ID HTTP response code 404
+
+2022-11-04 13:49:52 - [MESSAGE][PASSED] - Feature file: 'Include/features/API/product_categories.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-04 13:49:02 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/API/runFeatureFile_Product_category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

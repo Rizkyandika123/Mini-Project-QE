@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Mobile,,,,2022-11-04 15:07:36,2022-11-04 15:09:01,1m - 25.307s,PASSED
+,,,,,,,
+Test Cases/Mobile/Auth/TC001P_Register,,,,2022-11-04 15:07:36,2022-11-04 15:08:10,34.491s,PASSED
+"runFeatureFile(""Include/features/Mobile/Auth/register.feature"")",,,,2022-11-04 15:07:36,2022-11-04 15:08:10,34.122s,PASSED
+,,,,,,,
+Test Cases/Mobile/Auth/TC005P_Login,,,,2022-11-04 15:08:10,2022-11-04 15:08:35,24.710s,PASSED
+"runFeatureFile(""Include/features/Mobile/Auth/login.feature"")",,,,2022-11-04 15:08:11,2022-11-04 15:08:35,24.336s,PASSED
+,,,,,,,
+Test Cases/Mobile/Auth/TC010P_Logout,,,,2022-11-04 15:08:35,2022-11-04 15:09:01,25.811s,PASSED
+"runFeatureFile(""Include/features/Mobile/Auth/logout.feature"")",,,,2022-11-04 15:08:35,2022-11-04 15:09:01,25.476s,PASSED

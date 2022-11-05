@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Register",
+        "description": "",
+        "id": "authentication;register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2625757100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am send request for register",
+            "match": {
+              "location": "authentication.sendRequestRegister()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14075600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am verify register HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyRegiterResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Login",
+        "description": "",
+        "id": "authentication;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236966400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am send request for login",
+            "match": {
+              "location": "authentication.sendRequestLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2564200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am verify login HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyLoginResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Get user information",
+        "description": "",
+        "id": "authentication;get-user-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1251371700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am send request for get user information",
+            "match": {
+              "location": "authentication.sendRequestGetUserInformation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2359600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am verify user information HTTP response code 200",
+            "match": {
+              "location": "authentication.verifyGetUserInformationResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Register with same email",
+        "description": "",
+        "id": "authentication;register-with-same-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246422200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am send request for register with same email",
+            "match": {
+              "location": "authentication.sendRequestRegisterWithSameEmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3175900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am verify register with same email HTTP response code 400",
+            "match": {
+              "location": "authentication.verifyRegisterWithSameEmailResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Login with invalid password",
+        "description": "",
+        "id": "authentication;login-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1260414300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am send request for login with invalid password",
+            "match": {
+              "location": "authentication.sendRequestLoginWithInvalidPassword()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2388400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am verify login HTTP response code 400",
+            "match": {
+              "location": "authentication.verifyLoginWithInvalidPasswordResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get user information without login",
+        "description": "",
+        "id": "authentication;get-user-information-without-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1267086300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am send request for get user information without login",
+            "match": {
+              "location": "authentication.sendRequestGetUserInformationWithoutLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2013200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am verify user information without login HTTP response code 401",
+            "match": {
+              "location": "authentication.verifyGetUserInformationWithoutLoginResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "C:/Users/iputu/Katalon Studio/Mini project/Include/features/API/auth.feature",
+    "tags": []
+  }
+]
