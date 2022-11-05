@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015_Filtering List Transaction By Sub-total(Ascending)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a724ea08-8f1b-4d4f-89ad-e1569ec8f9d6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC011_Filtering List Transaction By Product(Ascending)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4002b9b-8dd7-40e7-85fc-08a9bea6f074</testCaseGuid>
+</TestCaseEntity>

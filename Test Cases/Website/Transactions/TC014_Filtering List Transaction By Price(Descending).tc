@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014_Filtering List Transaction By Price(Descending)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f64ba7e-7d08-45b7-a54c-b507dd226c0f</testCaseGuid>
+</TestCaseEntity>

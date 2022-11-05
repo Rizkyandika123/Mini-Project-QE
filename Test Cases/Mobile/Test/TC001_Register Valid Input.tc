@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Register Valid Input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8f4a23e-7fbc-4826-ae35-6930ee0396ec</testCaseGuid>
+</TestCaseEntity>
